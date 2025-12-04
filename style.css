@@ -30,7 +30,7 @@ section {
 
 h1, h2, h3 {
     margin-bottom: 20px;
-    color: #1a3c5a;
+    color: #a0a0a0;
 }
 
 h1 {
@@ -92,11 +92,11 @@ header {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #1a3c5a;
+    color: #a0a0a0;
 }
 
 .logo span {
-    color: #25D366;
+    color: #fc771e;
 }
 
 nav ul {
@@ -116,7 +116,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #25D366;
+    color: #fc771e;
 }
 
 .mobile-menu {
@@ -127,7 +127,7 @@ nav ul li a:hover {
 
 /* HERO SECTION */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('contenido/7.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -208,7 +208,7 @@ nav ul li a:hover {
 
 .feature-icon {
     font-size: 2.5rem;
-    color: #25D366;
+    color: #fc771e;
     margin-bottom: 20px;
 }
 
@@ -243,7 +243,7 @@ nav ul li a:hover {
 
 /* CTA SECTION */
 .cta {
-    background: linear-gradient(rgba(26, 60, 90, 0.9), rgba(26, 60, 90, 0.9)), url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background: linear-gradient(rgba(26, 60, 90, 0.9), rgba(26, 60, 90, 0.9)), url('contenido/5.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -304,7 +304,7 @@ footer {
 
 .contact-info i {
     margin-right: 10px;
-    color: #25D366;
+    color: #fc771e;
 }
 
 .copyright {
@@ -330,9 +330,9 @@ footer {
     }
 
     .mobile-menu.active {
-        background: #25D366;
+        background: #fc771e;
         color: #fff;
-        border-color: #25D366;
+        border-color: #fc771e;
     }
 
     nav {
