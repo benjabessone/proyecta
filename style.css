@@ -72,6 +72,14 @@ p {
     margin-right: 8px;
 }
 
+.btn-instagram {
+    background-color: #E1306C;
+}
+
+.btn-instagram:hover {
+    background-color: #C13584;
+}
+
 /* HEADER */
 header {
     background-color: white;
@@ -255,6 +263,17 @@ nav ul li a:hover {
 }
 
 .cta p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 1.2rem;
+}
+
+.instagram {
+    background-color: white;
+    text-align: center;
+}
+
+.instagram p {
     max-width: 700px;
     margin: 0 auto 30px;
     font-size: 1.2rem;
