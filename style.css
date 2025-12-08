@@ -72,6 +72,18 @@ p {
     margin-right: 8px;
 }
 
+.btn-alt {
+    background-color: #fc771e;
+}
+
+.btn-alt:hover {
+    background-color: #e56717;
+}
+
+.cta .btn {
+    margin: 0 10px 10px;
+}
+
 .btn-instagram {
     background-color: #E1306C;
 }
@@ -251,7 +263,7 @@ nav ul li a:hover {
 
 /* CTA SECTION */
 .cta {
-    background: linear-gradient(rgba(26, 60, 90, 0.9), rgba(26, 60, 90, 0.9)), url('contenido/5.jpg');
+    background: linear-gradient(#1a3c5ae6, #1a3c5ae6), url('contenido/5.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -269,7 +281,7 @@ nav ul li a:hover {
 }
 
 .instagram {
-    background-color: white;
+    background-color: #1a3c5a;
     text-align: center;
 }
 
@@ -324,6 +336,15 @@ footer {
 .contact-info i {
     margin-right: 10px;
     color: #fc771e;
+}
+
+.footer-contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
 }
 
 .copyright {
