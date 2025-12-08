@@ -50,7 +50,7 @@ p {
 
 .btn {
     display: inline-block;
-    background-color: #25D366;
+    background-color: #fc771e;
     color: white;
     padding: 12px 25px;
     border-radius: 5px;
@@ -63,21 +63,13 @@ p {
 }
 
 .btn:hover {
-    background-color: #128C7E;
+    background-color: #e56717;
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .btn i {
     margin-right: 8px;
-}
-
-.btn-alt {
-    background-color: #fc771e;
-}
-
-.btn-alt:hover {
-    background-color: #e56717;
 }
 
 .cta .btn {
@@ -428,4 +420,14 @@ footer {
     section {
         scroll-margin-top: 70px;
     }
+}
+.btn-outline {
+    background: transparent;
+    color: #fc771e;
+    border: 2px solid #fc771e;
+}
+
+.btn-outline:hover {
+    background: #fc771e;
+    color: white;
 }
